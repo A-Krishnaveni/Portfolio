@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Krishnaveni A — Web & UI/UX Designer</title>
+<meta name="description" content="Krishnaveni A — Aspiring Web & UI/UX Designer & Computer Science student. Portfolio, projects, skills and contact." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- CSS file link -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== BACKGROUND ===== -->
+<div class="aurora">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+</div>
+<div class="grid-overlay"></div>
+<div class="cursor-glow" id="glow"></div>
+<div class="progress" id="progress"></div>
+
+<!-- ===== NAV ===== -->
+<nav id="nav">
+  <a href="#home" class="logo"><span class="logo-mark">K</span>Krishnaveni A</a>
+  <div class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#certs">Certifications</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-actions">
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+  </div>
+  <button class="burger" id="burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <!-- Updated Job Role Here -->
+      <div class="badge reveal"><span class="dot"></span> Aspiring Web &amp; UI/UX Designer</div>
+      <h1 class="reveal">Hi, I'm <span class="grad-text">Krishnaveni&nbsp;A</span></h1>
+
+      <!-- Updated Job Role Here -->
+      <p class="lead reveal">
+        An enthusiastic Computer Science student and aspiring <strong>Web &amp; UI/UX Designer</strong> who loves turning ideas into
+        clean, responsive and user-friendly digital experiences — one line of code at a time.
+      </p>
+      <div class="btns reveal">
+        <a href="#projects" class="btn btn-primary">View My Work →</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="quick reveal">
+        <a href="mailto:krishnaveni10a@gmail.com" title="Email" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="17" height="17"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+        </a>
+        <a href="tel:6374592325" title="Phone" aria-label="Phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="17" height="17"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/krishnaveni-a-b30296374" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C21.2 8.65 22 11 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2.02-3.3-2.02 0-2.33 1.57-2.33 3.2V21h-4z"/></svg>
+        </a>
+        <a href="https://github.com/A-Krishnaveni" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ===== AVATAR ===== -->
+    <div class="avatar-wrap reveal">
+      <div class="ring slow"></div>
+      <div class="ring"></div>
+      <div class="avatar">
+        <span>KA</span>
+        <!-- Change the photo file name here. -->
+        <img src="krishnaveni.jpg" alt="Krishnaveni A" onerror="this.remove()">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="eyebrow">About Me</div>
+        <h2 class="sec-title">Turning curiosity into <span class="grad-text">clean code</span></h2>
+        <div class="about-card">
+          <p>
+            I'm an enthusiastic Computer Science student aiming to apply my academic knowledge,
+            develop practical skills, and contribute effectively to a dynamic work environment.
+          </p>
+          <p>
+            With a strong foundation in web technologies and a designer's eye for detail, my goal is to
+            secure a role as a <strong>Web &amp; UI/UX Designer</strong>, building interfaces that are simple,
+            responsive and pleasant to use.
+          </p>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="stats">
+          <div class="stat"><b data-count="87">0</b><small>CGPA — B.Sc CS</small></div>
+          <div class="stat"><b data-count="4">0</b><small>Projects</small></div>
+          <div class="stat"><b data-count="7" data-suffix="+">0</b><small>Certifications</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">What I Do</div>
+      <h2 class="sec-title">Skills &amp; <span class="grad-text">Strengths</span></h2>
+      <p class="sec-sub">A blend of technical know-how and human skills that help me build and collaborate better.</p>
+    </div>
+
+    <div class="skill-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">💻</div>
+        <h3>Web Development</h3>
+        <p>Building responsive front-ends with clean markup.</p>
+        <div class="tags">
+          <span class="tag">🌐 HTML</span><span class="tag">🎨 CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <h3>Databases &amp; Logic</h3>
+        <p>Designing schemas and structured queries.</p>
+        <div class="tags">
+          <span class="tag">🗄️ MySQL</span><span class="tag">📁 SQLite</span>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms Skill Card -->
+      <div class="skill-card reveal">
+        <div class="skill-icon">🛠️</div>
+        <h3>Tools &amp; Platforms</h3>
+        <p>Modern dev environments and data tools.</p>
+        <div class="tags">
+          <span class="tag">💻 VS Code</span><span class="tag">☁️ Google Colab</span>
+          <span class="tag">🐙 GitHub</span><span class="tag">📊 Power BI</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🎨</div>
+        <h3>Design &amp; Productivity</h3>
+        <p>Documentation, presentations and creative design.</p>
+        <div class="tags">
+          <span class="tag">📄 MS Office</span><span class="tag">✂️ Craft</span>
+          <span class="tag">🎨 UI Design</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🤝</div>
+        <h3>Soft Skills</h3>
+        <p>Patience, teamwork and a positive attitude.</p>
+        <div class="tags">
+          <span class="tag">🧩 Problem Solving</span><span class="tag">👥 Teamwork</span>
+          <span class="tag">💬 Communication</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Academic Journey</div>
+      <h2 class="sec-title">Education<span class="grad-text"></span></h2>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-top">
+            <h3>Master of Computer Application</h3>
+            <span class="tl-year">2026 – 2028</span>
+          </div>
+          <p>Francis Xavier Engineering College, Anna University</p>
+          <span class="score">Currently Pursuing</span>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-top">
+            <h3>B.Sc Computer Science</h3>
+            <span class="tl-year">2023 – 2026</span>
+          </div>
+          <p>Anna Hajira Women's College, Manonmaniam Sundaranar University</p>
+          <span class="score">CGPA : 87</span>
+        </div>
+      </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Portfolio</div>
+      <h2 class="sec-title"><span class="grad-text">Projects</span></h2>
+      <p class="sec-sub">Hands-on builds where I turned classroom concepts into working applications.</p>
+    </div>
+
+    <div class="proj-grid">
+      <!-- Project 01 -->
+      <article class="proj reveal tilt">
+        <div class="proj-inner">
+          <span class="proj-arrow">↗</span>
+          <span class="proj-num">PROJECT — 01</span>
+          <h3>Train Ticket Reservation System</h3>
+          <p>
+            A web-based train ticket booking system with user registration, secure login, and 
+            interactive seat selection. Built with MySQL and JavaScript.
+          </p>
+          <div class="tech">
+            <span>PHP</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 02 -->
+      <article class="proj reveal tilt">
+        <div class="proj-inner">
+          <span class="proj-arrow">↗</span>
+          <span class="proj-num">PROJECT — 02</span>
+          <h3>Zero Trust Network Access (ZTNA) System</h3>
+          <p>
+            A secure access system built on Zero Trust principles with IP-based verification 
+            and an admin dashboard for real-time monitoring.
+          </p>
+          <div class="tech">
+            <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQLite</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 03 -->
+      <article class="proj reveal tilt">
+        <div class="proj-inner">
+          <span class="proj-arrow">↗</span>
+          <span class="proj-num">PROJECT — 03</span>
+          <h3>HTML Quick Styler</h3>
+          <p>
+            An automated web page generation tool built using Python and Gradio. It generates 
+            styled HTML/CSS pages with live preview and AI UX review.
+          </p>
+          <div class="tech">
+            <span>Python</span><span>Gradio</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 04 -->
+      <article class="proj reveal tilt">
+        <div class="proj-inner">
+          <span class="proj-arrow">↗</span>
+          <span class="proj-num">PROJECT — 04</span>
+          <h3>Travel Diary App (Journey Journal)</h3>
+          <p>
+            A digital platform to document travel experiences with text, photos, and location 
+            mapping. Includes status tracking and offline storage.
+          </p>
+          <div class="tech">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>LocalStorage</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certs">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Learning Never Stops</div>
+      <h2 class="sec-title">Certifications &amp; <span class="grad-text">Exposure</span></h2>
+    </div>
+
+    <div class="cert-grid">
+      <!-- MS Office -->
+      <a href="pdfs/ms-office.pdf" target="_blank" class="cert reveal">
+        <div class="cert-ico">📄</div>
+        <div><b>MS Office (Basic)</b><small>Click to view PDF</small></div>
+      </a>
+      
+      <!-- Typewriting English -->
+      <a href="pdfs/typewriting-english.pdf" target="_blank" class="cert reveal">
+        <div class="cert-ico">📄</div>
+        <div><b>Typewriting — English</b><small>Click to view PDF</small></div>
+      </a>
+      
+      <!-- IoT -->
+      <a href="pdfs/iot.pdf" target="_blank" class="cert reveal">
+        <div class="cert-ico">📄</div>
+        <div><b>Introduction to IoT</b><small>Click to view PDF</small></div>
+      </a>
+      
+      <!-- Cloud Computing -->
+      <a href="pdfs/Cloud-Computing.pdf" target="_blank" class="cert reveal">
+        <div class="cert-ico">📄</div>
+        <div><b>Cloud Computing</b><small>Click to view PDF</small></div>
+      </a>
+      
+      <!-- Industrial Visit -->
+      <a href="pdfs/industrial-visit.pdf" target="_blank" class="cert reveal">
+        <div class="cert-ico">📄</div>
+        <div><b>Industrial Visit</b><small>Click to view PDF</small></div>
+      </a>
+      
+      <!-- AI in Education -->
+      <a href="pdfs/ai-in-education.pdf" target="_blank" class="cert reveal">
+        <div class="cert-ico">📄</div>
+        <div><b>AI in Education</b><small>Click to view PDF</small></div>
+      </a>
+
+      <!-- Entrepreneurship & Managerial Skill Development -->
+      <a href="pdfs/entrepreneurship.pdf" target="_blank" class="cert reveal">
+        <div class="cert-ico">📄</div>
+        <div><b>Entrepreneurship &amp; Managerial Skill Development</b><small>Click to view PDF</small></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <h2>Let's build something <span class="grad-text">great together</span></h2>
+      <p>
+        I'm open to internships, freelance design work and collaborative projects.
+        Drop a message — I'd love to hear from you.
+      </p>
+      <div class="contact-links">
+        <a class="clink" href="mailto:krishnaveni10a@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          krishnaveni10a@gmail.com
+        </a>
+        <a class="clink" href="tel:6374592325">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          +91 63745 92325
+        </a>
+        <a class="clink" href="https://www.linkedin.com/in/krishnaveni-a-b30296374" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-1 1.83-2.05 3.76-2.05C21.2 8.65 22 11 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2.02-3.3-2.02 0-2.33 1.57-2.33 3.2V21h-4z"/></svg>
+          LinkedIn Profile
+        </a>
+        <a class="clink" href="https://github.com/A-Krishnaveni" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub Profile
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- No Footer -->
+
+<button class="top" id="top" aria-label="Back to top">↑</button>
+
+<!-- JS file link -->
+<script src="script.js"></script>
+</body>
+</html>
